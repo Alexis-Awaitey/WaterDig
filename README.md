@@ -28,7 +28,7 @@ Install all packages listed in the requirements.txt file:
     
 Enable the "waterdig" environment to be discoverable as a kernel in Jupyter Notebooks:
 
-    python -m ipykernel install --user --name=myenv --display-name "waterdig" 
+    python -m ipykernel install --user --name=waterdig --display-name "waterdig" 
 
 When you open notebook in this repository, select "waterdig" as a kernel using the upper righthand menu.
 
